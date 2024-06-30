@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+   
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="header">
+        <header>
+<nav>
+    <a href="index.html"><img src="images/blue-umic-logo-without-text-445x439.png " class="logo" alt=""></a>
+    <div class="navlinks" id="navlinks">
+        <h3 class="umic">UNMESH MASHRUWALA <br> Innvovation Cell ,IIT Bombay</h3>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+    </div>
+</nav>
+</header>
+
+<div class="textbox">
+<h1><b><u>UMIC-SedRiCa</b></u></h1>
+<p>Team SeDriCa is on a mission to pioneer India's first Level 5 Autonomous car, designed specifically for Indian road
+conditions.<br><br> With a focus on efficiency and safety, we aim to excel in both national and international competitions</p>
+<a href="" class="btn">Visit us</a>
+</div>
+    </section>
+
+    <!---course-->
+
+<section class="course">
+    <h1>Team AeRoVe</h1>
+    <p>Team AeRoVe of UMIC is on a never-ending pursuit of developing an ultimate system of autonomous fixed-wing as well as
+    multirotor aircraft.<br><br><br> Incorporating different subsystems namely ‘Mechatronics’, ‘Controls’, ‘Machine Learning’,
+    ‘Perception’, ‘Path Planning’, and ‘Localisation’, the team emphatically covers every aspect to forge a de rigueur
+    system of autonomous aerial vehicles.</p>
+
+    <div class="row">
+        <div class="coursecol">
+            <h3>The Mothership Drone</h3>
+            <p>Primary drone that carries the secondary daughter drone.<br><br>An autonomous 25 Kg hexacopter with
+            an integral cage-like structure. <br><br> The mothership will deploy the daughter drone at the mast and continue its way homeward
+            to complete the mission in 9 minutes.</p>
+        </div>
+        <div class="coursecol">
+            <h3>The Daughter Drone</h3>
+            <p>The daughter drone, a 25 kg autonomous coaxial-octocopter capable of launching in mid-air, is meant to replace the
+            communication module.<br><br> It is equipped with a Pixhawk 4 for controlling the drone during flight. Intel Realsense D435 for
+            obtaining live video feed of the surroundings, Intel NUC 5i5RYH onboard computation, Here3 GPS for localisation, and 7
+            DOF robotic arm for gripping the mast and replacing the module.</p>
+        </div>
+        <div class="coursecol">
+            <h3>The Gripper</h3>
+            <p>The replacement mechanism is attached to the daughter drone and is the most integral component of the design. <br><br>It
+            consists of two grippers- one meant for holding on to the mast and the other for removing the module- each with two
+            degrees of freedom.<br><br> Made with a lightweight yet sturdy material to reduce load on daughter drone.</p>
+        </div>
+</section>
+
+<!---campus-->
+<section class="campus">
+    <h1>Our Drones</h1>
+    <p>Team AeRoVe of UMIC is on a never-ending pursuit of developing an ultimate system of autonomous fixed-wing as well as
+    multi-rotor aircraft.<br> Comprising 21 members, the team is divided into multiple subsystems.</p>
+    <div class="row">
+        <div class="campuscol">
+            <img src="images/mother-1-512x396.jpeg" alt="">
+            <div class="layer">
+                <h3>Mothership</h3>
+            </div>
+        </div>
+        <div class="campuscol">
+            <img src="images/daughter-2-512x288.jpeg" alt="">
+            <div class="layer">
+                <h3>Daughter Drone</h3>
+            </div>
+        </div>
+        <div class="campuscol">
+            <img src="images/mechanism-1266x712.jpeg" alt="">
+            <div class="layer">
+                <h3>Gripper</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--Facilities-->
+<section class="facilities">
+    <h1>KeY FeaTuReS</h1>
+   <div class="features">
+    <img src="images/hign.png" alt="">
+        <img src="images/light weight structure.png" alt="">
+        <img src="images/long range.png" alt="">
+        <img src="images/intricate algorithms.png" alt="">
+    </div>
+    <div class="row">
+        <div class="facilitiescol">
+            <h3>Mothership</h3>
+            <ul>
+                <p>six powerful MN1010 motors to carry the heavy daughter drone<br><br>
+                four 16000 mAh LIPO batteries to achieve a flight time of 11 min<br><br>
+                Equipped with a launchpad for the mid-air take-off of the daughter drone<br><br>
+                cage-like structure to reduce weight while maintaining strength</p>
+            </ul>
+        </div>
+        <div class="facilitiescol">
+            <h3>Daughter Drones</h3>
+            <p>stretched-X frame so that the drone can go closer to the mast while keeping the COM close to the centre of the frame.<br><br>
+                Reducing size & weight using coaxial-configuration and a 3-blade propeller<br><br>
+                The frame is attached with the replacement mechanism to provide it with 3 degrees of transnational motions.<br>
+            </p>
+        </div>
+        <div class="facilitiescol">
+            <h3>Gripper mechanism</h3>
+            <p><b>Maneuvers for module replacement:</b><br><br>
+                The first step comprises lowering the gripper and grabbing the swaying mast, thus ceasing any relative motion between
+                the gripping mechanism and the mast.<br><br>
+                Next, the communication module is extracted from the mast by employing a specially designed gripper which will slide
+                onto the module’s antenna and pull it out using a linear actuator. As soon as the module loses contact with the guiding
+                rods, it will fall automatically<br><br>
+                Now the replacement module can be slid into place, completing the process of module replacement.
+                
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<!--Testomonials-->
+
+
+
+
+    <!---javascript for toglle menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    
+<section class="achievements">
+    <h1>Our Achievements</h1>
+    <div class="achievement">
+        <img src="images/flipkart.jpg" alt="Achievement 1">
+        <div class="achievement-text">
+            <h3>Flipkart Grid 5.0 Robotics Challenge<br><br></h3>
+            <p>Team UMIC was crowned Champion 🏅after 3 fiercely competitive rounds at the Flipkart Grid 5.0 Robotics Challenge held at
+            Shaastra 2024, IIT Madras on 5th January, 2024.</p>
+        </div>
+    </div>
+    <div class="achievement">
+        <img src="images/was.jpg" alt="Achievement 2">
+        <div class="achievement-text">
+            <h3>UAS-2023<br><br></h3>
+            <p>Won 𝐭𝐡𝐫𝐞𝐞 prestigious awards here at 𝐔𝐀𝐒 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞 𝟐𝟎𝟐𝟑!<br>One of our proudest achievements is the 𝐃𝐞𝐬𝐢𝐠𝐧 𝐀𝐰𝐚𝐫𝐝. Our modular design stood out among international teams,
+            making it incredibly user-friendly and easily assessable. Our mechanical design was hailed as the best in the
+            competition!<br><br>
+            
+            🏅We were also honored with the 𝐒𝐜𝐫𝐮𝐭𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐀𝐰𝐚𝐫𝐝, recognizing us as the best presented UAS that
+            fully complies with the competition rules and meets the technical build quality and supportability objectives. This
+            prestigious accolade highlights our commitment to excellence in both design and adherence to competition standards.<br><br>
+            
+            🌟 Last but not least, we are proud recipients of the 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐦𝐞𝐧𝐭 𝐀𝐰𝐚𝐫𝐝. Among all the first-time
+            participating teams, IIT Bombay scored the highest points, highlighting our remarkable progress and dedication.</p>
+        </div>
+    </div>
+    <!-- Add more achievements as needed -->
+</section>
+
+<!---Footer-->
+<footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/innovationcell/"><i class="fa fa-facebook" ></i></a>
+            <a href="https://instagram.com/umic_iitb?igshid=1vialpckb3scy"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/unmesh-mashruwala-innovation-cell-iit-bombay"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCkwi2H7zV2texcM6bQ_UagA"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+</footer>
+</body>
+
+</html>
+</body>
+</html>
